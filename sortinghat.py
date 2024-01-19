@@ -6,7 +6,7 @@ import pandas as pd
 
 # Specify the file, refer to the one in the folder as an example. All that matters is that the names are the first column
 # and all info to sort with is in the subsequent columns
-file_path = 'Prior Experience Survey Survey Student Analysis Report.csv'
+file_path = 'Survey Results.csv'
 groups = 3
 data = pd.read_csv(file_path)
 
